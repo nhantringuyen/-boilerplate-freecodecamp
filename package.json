@@ -1,16 +1,25 @@
 {
 	"name": "fcc-learn-npm-package-json",
 	"author": "nhan",
+	"description": "A project that does something awesome",
 	"dependencies": {
-		"express": "^4.14.0"
+		"express": "^4.14.0",
+		"moment": "^2.10.2"
 	},
+	"version": "1.2.0",
+	"license": "MIT",
+	"keywords": [
+		"descriptive",
+		"related",
+		"freecodecamp"
+	],
 	"main": "server.js",
 	"scripts": {
 		"start": "node server.js"
 	},
 	"engines": {
-	    "node": "8.11.2"
-	  },
+		"node": "8.11.2"
+	},
 	"repository": {
 		"type": "git",
 		"url": "https://idontknow/todo.git"
